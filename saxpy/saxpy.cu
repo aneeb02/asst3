@@ -116,6 +116,8 @@ void saxpyCuda(int N, float alpha, float *xarray, float *yarray, float *resultar
     cudaFree(device_x);
     cudaFree(device_y);
     cudaFree(device_result);
+
+    //comparing results is left, and additional questions at the end of the part are also left, will complete when we run the code.
 }
 
 void printCudaInfo()
